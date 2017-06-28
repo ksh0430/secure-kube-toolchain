@@ -17,7 +17,7 @@ template:
     git branch: >-
       [master](https://github.com/open-toolchain/secure-kube-toolchain/tree/master)
 toolchain:
-  name: 'secure-kubernetes-toolchain-{{timestamp}} - {{form.pipeline.parameters.prod-space}}'
+  name: 'secure-kubernetes-toolchain-{{timestamp}}-{{form.pipeline.parameters.prod-space}}'
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted" 
